@@ -1,0 +1,45 @@
+    @import "tailwindcss/base";
+    @import "tailwindcss/components";
+    @import "tailwindcss/utilities";
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: #f09433;
+        background-image: url(https://c.wallhere.com/photos/6b/a1/2560x1600_px_Cloud_fog_Galaxies_grass_Green_lakes_landscapes-1732333.jpg!d);
+    }
+
+    input {
+        position: absolute;
+        width: 260px;
+        height: 33px;
+        outline: none;
+        border: 1px solid #9bf;
+        border-radius: 100px;
+        background-color: #eff;
+        padding: 12px;
+        font-size: 15px;
+        color: #bb8c8c;
+        top: 5vh;
+        transform: translate(-50%, -50%);
+    }
+
+    table {
+        color: #eff;
+        width: 210px;
+        font-size: 17px;
+    }
+
+    th {
+        padding: 0.7vh;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    td {
+        width: 79px;
+    }
